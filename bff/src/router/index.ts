@@ -1,8 +1,8 @@
 import express from 'express'
-import cadastroRouter from '../modules/cadastro/cadastro.router'
+import userRouter from '../modules/user/user.router'
 
 const router = express.Router()
 
-router.use("/cadastro", cadastroRouter)
+router.use("/cadastro", userRouter)
 
 export default router
